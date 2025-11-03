@@ -130,3 +130,12 @@ class LoginAPIView(APIView):
             {"message": "Invalid email or password "},
             status=status.HTTP_401_UNAUTHORIZED
         )
+
+
+from django.http import JsonResponse
+
+def home(request):
+    return JsonResponse({
+        "success": True,
+        "message": "server is up and running"
+    })
