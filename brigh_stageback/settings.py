@@ -7,7 +7,7 @@ SECRET_KEY = 'replace-me-with-a-secure-key'
 
 DEBUG = True
 
-ALLOWED_HOSTS = ['127.0.0.1', 'localhost']
+ALLOWED_HOSTS = ['*']
 
 # ------------------------
 # APPLICATIONS
